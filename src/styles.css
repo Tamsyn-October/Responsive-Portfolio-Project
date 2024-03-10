@@ -1,0 +1,46 @@
+:root {
+  --heading-font-family: "Roboto", sans-serif;
+  --body-font-family: "Open Sans", sans-serif;
+  --primary-colour: #d59bf6;
+  --secondary-colour: #edb1f1;
+}
+
+body {
+  font-family: var(--body-font-family);
+  background-color: #f6f5f5;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 90px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+.hero {
+  padding: 160px 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.btns {
+  background-color: white;
+  padding: 15px 30px;
+  border: none;
+  background-color: var(--primary-colour);
+  border-radius: 10px;
+  margin: 0px 10px;
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+}
