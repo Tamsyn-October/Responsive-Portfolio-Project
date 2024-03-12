@@ -1,10 +1,10 @@
 :root {
-  --heading-font-family: "Roboto", sans-serif;
-  --body-font-family: "Dosis", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
+  --body-font-family: "Poppins", sans-serif;
   --primary-colour: #d59bf6;
   --secondary-colour: #edb1f1;
 }
-/*  font-family:  "Open Sans", sans-serif; */
+/* font-family:"Dosis", sans-serif "Roboto", sans-serif; */
 body {
   font-family: var(--body-font-family);
   background-color: #f6f5f5;
@@ -24,6 +24,7 @@ h2 {
 
 h3 {
   font-size: 35px;
+  font-weight: normal;
 }
 
 .navbar-bgc {
@@ -31,12 +32,15 @@ h3 {
 }
 
 .navbar-name-icon {
-  font-size: 28px;
-  font-family: "Dosis", sans-serif;
+  font-size: 24px;
 }
 
 .navlink-text {
   font-size: 18px;
+}
+
+.navlink-list {
+  margin: 0px 20px;
 }
 
 .hero {
@@ -57,11 +61,17 @@ h3 {
   color: black;
   font-size: 15px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .btns:hover {
   cursor: pointer;
   box-shadow: 5px 5px 5px rgba(217, 207, 223, 0.7);
+}
+
+.btns:visited {
+  text-decoration: none;
+  color: black;
 }
 
 .footer-container {
@@ -119,4 +129,45 @@ h3 {
   .footer-link {
     font-size: 14px;
   }
+}
+
+/*About Section*/
+
+.about-container {
+  margin: 100px 20px 0px;
+}
+.about-info {
+  width: 80%;
+  padding: 10px;
+}
+
+.about-info h3 {
+  font-family: var(--heading-font-family);
+  font-size: 50px;
+  line-height: 5rem;
+  font-weight: normal;
+}
+
+.about-info h2 {
+  font-size: 22px;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+.about-info p {
+  text-align: justify;
+  margin: 0 auto 50px;
+  width: 80%;
+}
+
+.about-img {
+  margin: auto 0;
+  width: 30%;
+}
+
+.about-img img {
+  border-radius: 9999px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: -30px;
 }
