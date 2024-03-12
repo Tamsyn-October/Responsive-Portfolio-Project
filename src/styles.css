@@ -47,6 +47,7 @@ h3 {
   display: flex;
   justify-content: center;
 }
+
 .btns {
   padding: 15px 30px;
   border: none;
@@ -85,4 +86,37 @@ h3 {
 .footer-link:visited {
   color: black;
   text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .navbar-name-icon {
+    font-size: 18px;
+  }
+
+  .buttons {
+    display: block;
+    text-align: center;
+  }
+
+  .btns {
+    margin: 10px 10px;
+  }
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
 }
