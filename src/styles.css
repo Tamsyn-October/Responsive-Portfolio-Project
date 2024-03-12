@@ -1,18 +1,19 @@
 :root {
   --heading-font-family: "Roboto", sans-serif;
-  --body-font-family: "Open Sans", sans-serif;
+  --body-font-family: "Dosis", sans-serif;
   --primary-colour: #d59bf6;
   --secondary-colour: #edb1f1;
 }
-
+/*  font-family:  "Open Sans", sans-serif; */
 body {
   font-family: var(--body-font-family);
   background-color: #f6f5f5;
+  margin: 0;
 }
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 90px;
+  font-size: 80px;
   font-weight: normal;
 }
 
@@ -25,8 +26,21 @@ h3 {
   font-size: 35px;
 }
 
+.navbar-bgc {
+  background-color: #f6f5f5 !important;
+}
+
+.navbar-name-icon {
+  font-size: 28px;
+  font-family: "Dosis", sans-serif;
+}
+
+.navlink-text {
+  font-size: 18px;
+}
+
 .hero {
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .buttons {
@@ -34,7 +48,6 @@ h3 {
   justify-content: center;
 }
 .btns {
-  background-color: white;
   padding: 15px 30px;
   border: none;
   background-color: var(--primary-colour);
@@ -43,4 +56,33 @@ h3 {
   color: black;
   font-size: 15px;
   text-transform: uppercase;
+}
+
+.btns:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(217, 207, 223, 0.7);
+}
+
+.footer-container {
+  background-color: rgba(213, 155, 246, 0.3);
+  border-top: 1px solid black;
+}
+
+.footer-link {
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.footer-link:active,
+.footer-link:visited {
+  color: black;
+  text-decoration: none;
 }
