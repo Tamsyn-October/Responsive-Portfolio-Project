@@ -223,8 +223,23 @@ h3 {
   box-shadow: 8px 8px 8px rgba(213, 155, 246, 0.3);
 }
 
-/*Contact Section*/
+/*Contact Section #979797*/
 
 .contact-title {
   font-size: 36px;
+}
+
+.contact-container {
+  border: 2px solid rgb(221, 200, 233);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 30%;
+  box-shadow: 10px 10px 10px rgb(213, 155, 246);
+}
+
+.contact-content a {
+  color: black;
+  text-decoration-color: rgb(213, 155, 246);
+  text-decoration-thickness: 5px;
+  font-weight: 200;
 }
