@@ -15,13 +15,19 @@
     font-size: 18px;
   }
 
-  .buttons {
+  .buttons,
+  .btns {
     display: block;
     text-align: center;
+    margin-top: 50px;
   }
 
-  .btns {
-    margin: 10px 10px;
+  .social {
+    display: none;
+  }
+
+  .footer-container i {
+    font-size: 20px;
   }
   .hero {
     padding: 60px 20px;
@@ -32,20 +38,30 @@
   }
 }
 
+@media (max-width: 560px) {
+  .about-section-content h3 {
+    font-size: 30px;
+    line-height: 2rem;
+  }
+
+  .about-section-content h2 {
+    font-size: 16px;
+    line-height: 2rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .about-section-img {
     width: 50%;
     margin: 30px auto;
   }
-}
 
-@media (max-width: 560px) {
   .about-section-content h3 {
-    font-size: 35px;
+    font-size: 36px;
     line-height: 2rem;
   }
 
-  .about-section-content h2 {
-    font-size: 18px;
+  .project-content h1 {
+    font-size: 30px;
   }
 }

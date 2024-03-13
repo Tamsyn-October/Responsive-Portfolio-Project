@@ -26,6 +26,31 @@ h3 {
   font-weight: normal;
 }
 
+/*Home Section*/
+
+.title-container {
+  display: grid;
+  place-items: center;
+}
+
+.title-typed {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing;
+  animation-duration: 2.2s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .navbar-bgc {
   background-color: #f6f5f5 !important;
 }
@@ -100,6 +125,24 @@ h3 {
 }
 
 /*About Section 2*/
+@keyframes highlight {
+  from {
+    background-position: 0;
+  }
+
+  to {
+    background-position: -100%;
+  }
+}
+
+.highlight {
+  animation-name: highlight;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  background-size: 200%;
+  background-image: linear-gradient(to right, white 50%, transparent 50%),
+    linear-gradient(transparent 50%, rgb(213, 155, 246) 50%);
+}
 
 .about-section-content {
   text-align: center;
@@ -107,7 +150,7 @@ h3 {
 
 .about-section-content h3 {
   font-family: var(--heading-font-family);
-  font-size: 50px;
+  font-size: 46px;
   line-height: 5rem;
   font-weight: normal;
 }
@@ -142,6 +185,13 @@ h3 {
 .card-container {
   padding: 60px 60px;
 }
+
+.card:hover {
+  transition: 10ms;
+  border: 1px solid black;
+  top: -10px;
+}
+
 .project-content img {
   margin: auto 0;
   height: 300px;
@@ -171,4 +221,10 @@ h3 {
 .card-container {
   cursor: pointer;
   box-shadow: 8px 8px 8px rgba(213, 155, 246, 0.3);
+}
+
+/*Contact Section*/
+
+.contact-title {
+  font-size: 36px;
 }
