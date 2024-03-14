@@ -76,12 +76,14 @@
     font-size: 18px;
     margin: 40px 10px 40px;
   }
+
+  .contact-title {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 700px) {
   .contact-container {
-    border: none;
-    box-shadow: none;
     width: 100%;
   }
 }
@@ -98,6 +100,6 @@
   }
 
   .project-content h1 {
-    font-size: 30px;
+    font-size: 36px;
   }
 }

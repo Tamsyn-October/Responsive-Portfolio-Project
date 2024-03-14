@@ -117,6 +117,7 @@ h3 {
   font-weight: 500;
   text-decoration: none;
   color: black;
+  margin: 8px 0;
 }
 
 .footer-link:hover {
@@ -211,7 +212,7 @@ h3 {
 }
 
 .project-content h1 {
-  font-size: 36px;
+  font-size: 50px;
 }
 
 .project-content h3 {
@@ -230,7 +231,9 @@ h3 {
 }
 
 /*Contact Section #979797*/
-
+.contact-title {
+  font-size: 50px;
+}
 .contact-container {
   margin: 0 auto;
   padding: 40px 20px;
