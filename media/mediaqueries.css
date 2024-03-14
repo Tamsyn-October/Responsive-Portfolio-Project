@@ -40,6 +40,25 @@
   .contact-title {
     font-size: 28px;
   }
+
+  .contact-text {
+    font-size: 16px;
+  }
+
+  .contact-info a {
+    font-size: 16px;
+    margin: 20px 10px 20px;
+  }
+
+  .contact-content .btns {
+    font-size: 14px;
+    border-radius: 9999px;
+    margin-top: 20px;
+  }
+
+  .nametag {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -53,8 +72,9 @@
     line-height: 2rem;
   }
 
-  .contact-content h2 {
+  .contact-info a {
     font-size: 18px;
+    margin: 40px 10px 40px;
   }
 }
 
@@ -63,11 +83,6 @@
     border: none;
     box-shadow: none;
     width: 100%;
-  }
-
-  .contact-content {
-    margin: 0;
-    padding: 0;
   }
 }
 

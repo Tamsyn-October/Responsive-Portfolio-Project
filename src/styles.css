@@ -5,9 +5,16 @@
   --secondary-colour: #edb1f1;
 }
 /* font-family:"Dosis", sans-serif "Roboto", sans-serif; */
+html {
+  height: 100%;
+}
+
 body {
   font-family: var(--body-font-family);
   background-color: #f6f5f5;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 h1 {
@@ -106,7 +113,6 @@ h3 {
 }
 
 .footer-link {
-  margin: 8px 0;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -225,21 +231,41 @@ h3 {
 
 /*Contact Section #979797*/
 
-.contact-title {
-  font-size: 36px;
-}
-
 .contact-container {
-  border: 2px solid rgb(221, 200, 233);
-  border-radius: 10px;
   margin: 0 auto;
-  width: 30%;
-  box-shadow: 10px 10px 10px rgb(213, 155, 246);
+  padding: 40px 20px;
+  width: 50%;
 }
 
-.contact-content a {
+.contact-info a {
+  text-decoration: none;
   color: black;
-  text-decoration-color: rgb(213, 155, 246);
-  text-decoration-thickness: 5px;
-  font-weight: 200;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 15px 10px;
+}
+
+.contact-info a:hover {
+  color: var(--primary-colour);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-colour);
+}
+
+.contact-text {
+  font-size: 20px;
+}
+
+.contact-content .btns {
+  font-size: 20px;
+  border-radius: 9999px;
+  margin-top: 80px;
+}
+
+.contact-content .btns:hover {
+  background-color: #f6f5f5;
+  border: 2px solid var(--primary-colour);
+}
+
+.nametag {
+  font-size: 14px;
 }
